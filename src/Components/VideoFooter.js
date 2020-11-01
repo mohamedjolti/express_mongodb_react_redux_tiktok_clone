@@ -1,5 +1,5 @@
 import React from 'react'
-import  "../ComponentsSyles/VideoFooter.css"
+import  "../ComponentsStyles/VideoFooter.css"
 import MusicNoteIcon from '@material-ui/icons/MusicNote';
 import Ticker from 'react-ticker';
 export default function VideoFooter() {
@@ -8,8 +8,8 @@ export default function VideoFooter() {
              <div className="video__footer_text">
                 <h3>@jolti</h3>
                 <p>this is a description</p>
-                <div className="video__footer_tiker">
-                            <MusicNoteIcon/>
+                <div className="video__footer_ticker">
+                            <MusicNoteIcon className="footer__musicIcon"/>
 
                             <Ticker mode="smooth">
                             { ({index})=>(

@@ -1,6 +1,6 @@
 
 import React, { useRef,useState } from 'react'
-import   "../ComponentsSyles/Video.css"
+import   "../ComponentsStyles/Video.css"
 import VideoFooter from './VideoFooter'
 export default function Video (){
          const [play,setPlay]=useState(false)
@@ -23,7 +23,6 @@ export default function Video (){
                      <VideoFooter/>
                     {/* sidebar */}
 
-                 <h1>Video </h1>
             </div>
         )
     
