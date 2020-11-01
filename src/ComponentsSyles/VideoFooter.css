@@ -1,0 +1,27 @@
+.video__footer{
+    position: relative;
+    bottom: 150px;
+    color: wheat;
+    display: flex;
+    margin-left: 40px;
+}
+.video__footer_record{
+    animation: appRecord infinite 5s linear;
+    height: 50px;
+    filter: invert(1);
+}
+.video__footer_text{
+    flex: 1;
+}
+@keyframes appRecord{
+  from{
+      transform: rotate(0deg);
+  }
+  to{
+      transform: rotate(360deg);
+  }
+}
+
+.video__footer_ticker{
+
+}
